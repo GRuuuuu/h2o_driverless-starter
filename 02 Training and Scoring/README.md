@@ -22,36 +22,36 @@ ADD Dataset버튼을 통해 (H2O가 올라가있는 서버의)파일시스템, �
 > - delete : 데이터셋 삭제  
 
 ### Visualize
-visualize 버튼을 누르면 나오는 화면. 각 그래프를 확인해볼 수 있다.
+visualize 버튼을 누르면 나오는 화면. 각 그래프를 확인해볼 수 있습니다.
 ![Alt text](./img/2.png)
 
 >Correlation graph를 선택한 모습
 > ![Alt text](./img/3.png)
 
 ### 3.2 Training
-Predict를 누르고 나면 나오는 화면. 어떤 column에 대해서 트레이닝을 할 것인지 정한다. 
+Predict를 누르고 나면 나오는 화면. 어떤 column에 대해서 트레이닝을 할 것인지 정합니다. 
 ![Alt text](./img/4.png)
 
-예시로 Hotels Occupancy rate라는 column에 대해 트레이닝을 한다고 설정한다.
+예시로 Hotels Occupancy rate라는 column에 대해 트레이닝을 한다고 설정해줍시다.
 ![Alt text](./img/5.png)
 
-트레이닝을 하기 전, 설정페이지이다.
+트레이닝을 하기 전, 설정페이지입니다.
 ![Alt text](./img/6.png)
 >자세한 설명은 추후 예정  
 
-트레이닝을 실행하게 되면 나오는 페이지이다.
-![Alt text](./img/6.5.png)
->자세한 설명 추후 예정
+트레이닝을 실행하게 되면 나오는 페이지입니다.
+![Alt text](./img/6.5.PNG)
+>자세한 설명 추후 예정/ 1.19기준 용량이없어서 다시 테스트를 못해 스크린샷이 없습니다.
 
 ## 4. Scoring
 
-트레이닝이 다 끝나고 나면 다음과 같은 결과 페이지가 뜨게 된다.  
+트레이닝이 다 끝나고 나면 다음과 같은 결과 페이지가 뜨게 됩니다.  
 ![Alt text](./img/7.png)
 
 Scoring on another dataset을 누르고 
 ![Alt text](./img/9.png)
-Scoring하려는 dataset을 선택한다.  
-그 후, Download Predictions버튼을 누르게 되면, 예측한 값에 대한 csv파일을 다운로드 받을 수 있다.
+Scoring하려는 dataset을 선택합니다.  
+그 후, Download Predictions버튼을 누르게 되면, 예측한 값에 대한 csv파일을 다운로드 받을 수 있습니다.
 
 
 ## 5. MOJO Scoring Pipeline
